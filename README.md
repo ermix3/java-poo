@@ -2,14 +2,12 @@
 
 ## Project
 
----
 > This project is a simple Java project that contains some classes and tests. The classes are related to the
 Object-Oriented Programming (OOP) paradigm. The tests are related to the classes.
 
 
 ## Instructions
 
----
 1. Clone the repository
 2. Open the project in your favorite IDE
 3. Run the project
@@ -23,7 +21,6 @@ mvn test
 
 ## Technologies
 
----
 - Java
 - Maven
 - JUnit
