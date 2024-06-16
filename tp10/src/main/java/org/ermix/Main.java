@@ -24,9 +24,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Starting the application...");
 
-        System.out.println("---------------- Ex1 -------------------");
+        System.out.println("\n---------------- Ex1 -------------------");
 
-        System.out.println("\n---------------- Création d'un employé");
+        System.out.println("---------------- Création d'un employé");
         Personne p1 = new Employe("Alice", 25, 123);
         p1.saluer();
         p1.description();
@@ -38,7 +38,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex2 -------------------");
 
-        System.out.println("\n---------------- Création d'un article");
+        System.out.println("---------------- Création d'un article");
         Article a1 = new Article("AA223DD", "Livre", 10, 5);
         System.out.println("Prix TTC : " + a1.calculerPrixTTC());
         a1.afficherArticle();
@@ -50,7 +50,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex3 -------------------");
 
-        System.out.println("\n---------------- Création d'un roman");
+        System.out.println("---------------- Création d'un roman");
         Livre l1 = new Roman("titre 1", "auteur 1", "genre 1");
         l1.afficherDetails();
 
@@ -61,7 +61,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex4 -------------------");
 
-        System.out.println("\n---------------- Création d'un employé horaire");
+        System.out.println("---------------- Création d'un employé horaire");
         Payable e1 = new EmployeHoraire(10, 40);
         System.out.println("Salaire : " + e1.calculerSalaire() + "€");
 
@@ -72,7 +72,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex5 -------------------");
 
-        System.out.println("\n---------------- Création d'un cercle");
+        System.out.println("---------------- Création d'un cercle");
         Forme f1 = new Cercle(5);
         System.out.println("Aire du cercle : " + f1.calculerAire());
         System.out.println("Périmètre du cercle : " + f1.calculerPerimetre());
@@ -85,7 +85,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex6 -------------------");
 
-        System.out.println("\n---------------- Création d'un voiture");
+        System.out.println("---------------- Création d'un voiture");
         Transport t1 = new Voiture("Peugeot");
         t1.demarer();
         t1.arreter();
@@ -98,7 +98,7 @@ public class Main {
 
         System.out.println("\n---------------- Ex7 -------------------");
 
-        System.out.println("\n---------------- Création d'un produit");
+        System.out.println("---------------- Création d'un produit");
         Vendable v1 = new Produit(100);
         System.out.println("Prix : " + v1.calculePrix() + "€");
 
